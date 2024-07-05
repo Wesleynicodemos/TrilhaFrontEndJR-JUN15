@@ -8,6 +8,6 @@ const observador = new IntersectionObserver ( (entradas) => {
     })
 })
 
-const elementos = document.querySelectorAll('.hidden')
+const elementos = document.querySelectorAll('.hidden ,.hidden-2')
 
 elementos.forEach( (elemento) => observador.observe(elemento))
