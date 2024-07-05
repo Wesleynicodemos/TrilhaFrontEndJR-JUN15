@@ -1,80 +1,24 @@
-![Código Certo Coders](https://utfs.io/f/3b2340e8-5523-4aca-a549-0688fd07450e-j4edu.jfif)
+# Sobre o Projeto
+ Este projeto tem o Objetivo de  criar uma pagina web que contenha a apresentação pessoal, contando os gostos e mativação para ingressar como voluntario na comunidade Codigo Certo Coders.
 
-# 📚 Trilha Inicial Front-End Jr
-Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade **Codigo Certo Coders** e participar de projetos voluntários.
+ ## Tecnologias Utilizadas 
 
-## Estrutura da Página
-- **Foto:** Incluir uma foto pessoal.
-- **Informações Pessoais:** Nome completo e idade.
-- **Sobre:** Descrição pessoal, incluindo objetivos de carreira, áreas de interesse na programação, entre outros.
-- **Gostos Pessoais:** Liste ou descreva seus gostos pessoais de uma maneira que mostre sua criatividade e paixões.
-- **Motivações:** Explique sua motivação em querer participar da comunidade **Codigo Certo Coders**
+  HTML,
+  CSS e
+  JAVASCRIPT
 
-**Como você pode contar sua história de maneira visual e envolvente?**
-(Transmita a resposta dessas perguntas de alguma forma na sua página)
+  O HTML foi usado pra estruturação da pagina,seguido do CSS que foi usado para a estilização e Responsividade da pagina, e por fim o JAVASCRIPT que foi utilizado para fazer algumas animaçoes nos elementos.
 
-### Requisitos de Design e Funcionalidade 
-- **Design Moderno e Responsivo:** Garantir que a página seja visualmente atraente e funcional em diferentes dispositivos.
-- **Uso de Imagens:** Incluir pelo menos uma imagem (foto pessoal).
+  ## Dependências Necessarias 
 
-Primordial: Utilizar as cores da paleta da **Codigo Certo Coders:**
-![Codigo Certo Coders Cores](https://github.com/codigocerto/TrilhaFrontEndJR-JUN15/assets/170693068/5ced1a97-b2c6-4f54-836c-7b3e115f879f)
-- **#000000** (preto)
-- **#e53939** (vermelho)
-- **#ffffff** (branco)
+  Um navegador Web. 
 
-### Detalhes Técnicos: 🔧
-- **Boas Práticas:** Utilizar boas práticas de código limpo, legível e bem documentado.
-- **Git:** Utilizar Git para controle de versão e submeter o projeto através de um repositório público no GitHub.
+  ex: GOOGLE chrome, Microsoft Edge e etc.
 
-### Apreciações: 🎉
-- **Feedbacks visuais para o usuário.**
-- **Permitir edição dos conteúdos.**
-- **Utilização máxima possível de HTML semântico.**
-- **CSS bem estruturado.**
-- **Código limpo e bem organizado.**
+  ## Como rodar a aplicação 
 
-### Dicas para Abordar o Projeto 🌟
-- **Crie um Fork desse Repositório.**
-- **Criar do Zero:** É fundamental que o projeto seja desenvolvido completamente do zero, demonstrando suas habilidades e criatividade desde o início.
-- **Atenção aos Detalhes Visuais:** Utilize a paleta de cores e elementos visuais de forma coesa para uma experiência impactante.
-- **Versionamento com Git:** Faça uso eficiente do Git para controlar suas alterações e manter um histórico claro do desenvolvimento.
+  1º : Crie um clone do Projeto;
+  2º : Encontre o diretorio na sua maquina local;
+  3º : Execute o arquivo "index.html".
 
-### Critérios de Avaliação: 📝
-- **Funcionalidade:** A aplicação deve atender à estrutura da página e aos requisitos definidos.
-- **Qualidade do Código:** O código deve ser limpo, bem estruturado e adequadamente documentado.
-- **UI/UX:** A interface do usuário deve ser intuitiva e visualmente atraente.
-- **Uso do Git:** Utilização eficaz do controle de versão com mensagens de commit significativas.
-
-### Não Queremos 🚫
-- Descobrir que o candidato não foi quem realizou o teste.
-- Ver commits grandes sem muita explicação nas mensagens no repositório.
-- Entregas padrão ou cópias de outros projetos. Buscamos originalidade e autenticidade em cada contribuição.
-
-### Prazo ⏳
-A data máxima para entrega das trilhas foi removida, permitindo que as pessoas entreguem conforme sua disponibilidade. No entanto, ainda é necessário concluir a trilha com sucesso para ser inserido em uma equipe.
-
-### Instruções de Entrega: 📬
-Após finalizar o projeto, publique-o em uma URL pública (por exemplo, Vercel, Netlify, GitHub Pages, etc.) e preencha o [Formulário](https://forms.gle/gZViPMTSDV5nidSu6):  
-
----
-
-### Desafio da Inovação 🚀
-Achou esse projeto inicial simples? Eleve ainda mais! Estamos em busca de mentes inovadoras que não apenas criem, mas que também desafiem os padrões. Como você pode transformar essa estrutura inicial em algo verdadeiramente extraordinário? Demonstre o poder da sua criatividade e o impacto das suas ideias inovadoras!
-
----
-
-🔗 **Mantenha-se Conectado:**
-- [Discord](https://discord.gg/wzA9FGZHNv)
-- [Website](http://www.codigocertocoders.com.br/)
-- [LinkedIn](https://www.linkedin.com/company/codigocerto/)
   
-🌐 **Contato:**
-- Email: codigocertocoders@gmail.com
-
----
-
-### Precisa de Ajuda?
-Está com alguma dificuldade, encontrou algum problema no desafio ou tem alguma sugestão pra gente? Crie uma issue e descreva o que achar necessário.
-
-**Construindo o amanhã, hoje.**
