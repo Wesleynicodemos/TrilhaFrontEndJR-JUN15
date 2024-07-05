@@ -28,6 +28,7 @@ header {
 }
 
 header a img {
+    margin-left: 20px;
     width: 48px;
     height: 48px;
     
