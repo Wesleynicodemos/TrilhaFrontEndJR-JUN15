@@ -14,6 +14,7 @@ body {
     background: rgb(0, 0, 0);
     color: white;
     margin: 0px;
+    
 }
 
 header {
@@ -60,11 +61,14 @@ header ul li:hover {
     cursor: pointer;
     
 }
+header .btn-menu{
+    display: none;
+}
 
 section .conteudo {
     display: flex;
     gap: 52px;
-    width: 1200px;
+    width: 85%;
     margin: auto;
 }
 
@@ -104,13 +108,13 @@ section .superior {
     }
 } 
 
-.butoes {
+.botoes {
     display: flex;
     width: 272px;
     gap: 20px;
 }
 
-.butoes .btn {
+.botoes .btn {
     width: 125px;
     height: 40px;
     background: #e53939;
@@ -120,7 +124,7 @@ section .superior {
     cursor: pointer;
     margin-top: 130px;
 }
-.butoes .btn2 {
+.botoes .btn2 {
     width: 125px;
     height: 40px;
     background: transparent;
@@ -135,7 +139,7 @@ section .superior {
 
 section #tecnologias {
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin: auto;
     gap: 20px;
     
@@ -157,7 +161,7 @@ section #tecnologias {
 }
 
 .conteudo-2 {
-    width: 1200px;
+    width: 85%;
     margin: auto;
     font-family: 'montserrat';
     
@@ -167,6 +171,27 @@ section #tecnologias {
     }
     p {
         font-size: 18px;
+    }
+}
+
+footer {
+    width: 100%;
+    opacity: 0.7;
+
+    hr {
+        margin-top: 45px;
+    }
+    p {
+        text-align: center;
+        margin: 10px auto 10px auto;
+    }
+
+    .rodape {
+        display: flex;
+        gap: 30px;
+        margin: 20px 0px 20px 0px;
+        justify-content: center;
+        
     }
 }
 
@@ -200,10 +225,223 @@ section #tecnologias {
     transition-delay: 300ms;
 }
 
+@media  (min-width: 481px) and (max-width:768px) {
+    header {
+        display: flex;
+        justify-content:space-between; 
+          
+        
+        .menu{
+           margin-right: 220px;
+        }
+    }
+    
+    section .conteudo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+    
+      .texto {
+        margin: 50px 0px 0px 0px;
+        height: auto;
+        order: 2;
+        margin: 50px auto 50px auto;
+    }
+      .botoes{
+        width:600px;
+        margin: auto;
+        gap:80px;
+        justify-content: center;
+      }
+      .btn, .btn2 {
+        width: 132px;
+        height: 45px;
+      }
+    }
+    
+    .foto img {
+        width: 354px;
+        height: 522px;
+    }
+    
+    section .butoes{
+      margin: auto;
+    } 
+    
+    .conteudo-2 {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    .conteudo-2 h2 {
+        text-align: center;
+        margin: 20px;
+        font-size: 30px;
+        color: #e53939;
+        font-weight: 800;
+      
+      }
+    
+    
+    section #tecnologias {
+      width: 300px;
+      margin: auto;
+      gap:31px;
+    }
+    
+    section .gostos-pessoais {
+        width:600px;
+        margin: auto;
+        margin-top: 50px;
+    
+        h2 {
+            text-align: center;
+            margin: 20px;
+            font-size: 30px;
+            color: #e53939;
+            font-weight: 800;
+        }
+    
+        li {
+            font-size: 18px;
+            margin: 14px 0px;
+            font-family: 'montserrat' ;
+        }
+    }
+    
+    section .motivação {
+      width: 600px;
+      margin: 50px auto 0px auto;
+      font-family: 'montserrat';
+      text-align: justify;
+    
+      h2 {
+        text-align: center;
+        margin: 20px;
+        font-size: 30px;
+        color: #e53939;
+        font-weight: 800;
+      }
+    
+      p {
+        font-size: 18px;
+        font-family: 'montserrat';
+        
+      }
+    }
+    
+    footer {
+        width: 100vw;
+        margin-top: 65px;
+        hr {
+            margin-top: 25px;
+        }
+        p {
+            text-align: center;
+            margin: 10px auto 10px auto;
+        }
+    
+        .rodape {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+        }
+    }
+}
+
 /*MOBILE*/
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:480px) {
 
+header {
+    display: flex;
+    justify-content: space-between;
+
+    .ativo{
+        
+        .menu{
+            display: block;
+            visibility: visible;
+            height: 100%;
+            transform: translateX(0);
+            transition: 0.8s;
+            
+        }
+        .icon { 
+            border-top-color:transparent ;
+        }
+
+        .icon::after {
+            transform: rotate(-135deg);
+            transition: 0.3s;
+        }
+
+        .icon::before {
+            transform: rotate(135deg);
+            transition: 0.3s;
+            top: 7px;
+        }
+
+    }
+
+    .btn-menu {
+        z-index: 1;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 1;
+        background: #000000;
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+        height: 100%;
+        visibility: hidden;
+        transform: translateX(100%);
+        transition: 0.8s;
+        
+        
+
+        li {
+            font-size: 30px;
+        }
+    }
+
+    .btn-menu{
+        display: flex;
+        padding: 8px 16px;
+        margin: 0px 10px ;
+        border: none;
+        background: none;
+        color: white;
+        cursor: pointer;
+        gap: 8px;
+        
+    }
+    
+    .icon {
+        width: 20px;
+        border-top: 2px solid;
+    }
+    .icon::after, .icon::before {
+        width: 20px;
+        content: '';
+        display: block;
+        margin-top: 5px;
+        height: 2px;
+        background: white;
+        transition: 0.3s;
+        position: relative;
+    }
+}
 
 section .conteudo{
   display: flex;
@@ -228,7 +466,7 @@ section .conteudo{
     height: 522px;
 }
 
-section .butoes{
+section .botoes{
   margin: auto;
 } 
 
@@ -303,6 +541,11 @@ footer {
         text-align: center;
         margin: 10px auto 10px auto;
     }
-}
-}
 
+    .rodape {
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+}
+}
